@@ -1,0 +1,9 @@
+title 0.6: New note
+
+Browser->Server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+Server->Browser: Status code 201 created
+note over Browser: 
+Then the event handler
+adds the note to the
+notes list and rerenders it
+end note
